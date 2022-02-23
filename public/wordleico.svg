@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.5" height="62.5" viewBox="0 0 64.5 62.5">
+  <g id="ico" transform="translate(-455 -235)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="60" height="60" rx="9" transform="translate(455 235)" fill="#fff"/>
+    <text id="W" transform="translate(467 240)" fill="#0f0551" font-size="37" font-family="Segoe UI Variable Display" font-weight="700"><tspan x="-0.054" y="40">W</tspan></text>
+    <text id="x" transform="translate(482 260)" fill="#0f0551" stroke="#fff" stroke-width="0.5" font-size="22" font-family="Segoe UI Variable Display" font-weight="700"><tspan x="12.678" y="24">x</tspan></text>
+  </g>
+</svg>

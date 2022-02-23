@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    @apply select-none;
+  }
+  .letter-case {
+    @apply font-bold border-2   w-12 h-12 sm:w-16 sm:h-16 dark:bg-gray-800 dark:border-gray-800 bg-gray-300 border-gray-300 rounded-md flex justify-center items-center text-3xl uppercase leading-tight transition-all;
+  }
+  .kbd {
+    @apply bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:shadow-gray-800 text-black rounded w-16 h-10 place-items-center grid text-xl   cursor-default  transition-all hover:shadow-gray-400 hover:shadow-[0_4px_0] hover:-translate-y-1;
+  }
+}
