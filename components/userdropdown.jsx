@@ -1,17 +1,15 @@
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import {
-  AiOutlineDashboard,
   AiOutlineLogin,
   AiOutlineLogout,
   AiOutlineSliders,
   AiOutlineTrophy,
-  AiOutlineUser,
+  AiOutlineUser
 } from "react-icons/ai";
-import Link from "next/link";
 import { DeleteAuthCookie } from "../utils/cookies";
-import { useRouter } from "next/router";
-import { fethcStats } from "../utils/utils";
 export const UserDropdown = ({
   loggedin,
   setStats,

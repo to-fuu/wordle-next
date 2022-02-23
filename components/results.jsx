@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { AiOutlineRedo, AiOutlineShareAlt } from "react-icons/ai";
+import { AiOutlineRedo } from "react-icons/ai";
 
 export const ResultScreen = ({
   gameEnded,

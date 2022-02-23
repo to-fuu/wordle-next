@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import Head from 'next/head';
 import { useCallback, useContext, useEffect, useRef, useState } from 'react';
-import { AiOutlineQuestion, AiOutlineSetting, AiOutlineTrophy } from 'react-icons/ai';
+import { AiOutlineQuestion, AiOutlineSetting } from 'react-icons/ai';
 import { Board } from '../components/board';
 import { HowToPlay } from '../components/howtoplay';
 import { Keyboard } from '../components/keyboard';

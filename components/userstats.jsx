@@ -1,7 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useState } from "react";
 import { AiOutlineShareAlt } from "react-icons/ai";
-import { fethcStats } from "../utils/utils";
 
 export const UserStats = ({ open, setIsOpen, stats }) => {
 

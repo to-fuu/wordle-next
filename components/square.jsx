@@ -1,6 +1,6 @@
-import React, { useEffect, useImperativeHandle } from "react";
-import { hintClass } from "../utils/utils";
 import { motion, useAnimation } from "framer-motion";
+import React, { useImperativeHandle } from "react";
+import { hintClass } from "../utils/utils";
 
 export const Square = React.forwardRef((props, ref) => {
   useImperativeHandle(ref, () => ({

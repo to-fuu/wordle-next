@@ -1,5 +1,4 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { AiOutlineShareAlt } from "react-icons/ai";
 import { Square } from "../components/square";
 export const HowToPlay = ({ open, setIsOpen }) => {
   return (
