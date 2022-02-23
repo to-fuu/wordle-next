@@ -1,5 +1,8 @@
 A clone of the word puzzle game Wordle, also previously known as Motus, made with Next.js and Tailwindcss
 
+- Dark mode support
+- Hard mode included
+
 ### Todo
 
 - [ ] Add stat tracking
