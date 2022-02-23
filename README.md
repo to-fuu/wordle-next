@@ -1,5 +1,10 @@
 A clone of the word puzzle game Wordle, also previously known as Motus, made with Next.js and Tailwindcss
 
+### Todo
+
+- [ ] Add stat tracking
+- [ ] Add custom generated puzzles
+
 ## Build and run
 
 ### To Run Locally:
