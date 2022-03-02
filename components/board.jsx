@@ -20,6 +20,7 @@ export const Board = React.forwardRef((props, ref) => {
   const wingame = () => {
     state.won.set(true);
     state.ended.set(true);
+    setCurrentRow(0);
   };
 
   const checkWord = () => {
@@ -107,7 +108,7 @@ export const Board = React.forwardRef((props, ref) => {
             } else {
               if (currentRow == 5) {
                 state.ended.set(true);
-                // props.updateScore(false);
+                setCurrentRow(0);
               } else {
                 setCurrentRow((prev) => prev + 1);
               }
